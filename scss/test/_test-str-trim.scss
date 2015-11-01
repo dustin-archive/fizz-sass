@@ -1,0 +1,12 @@
+$str-trim-test: (
+  'str-trim': (
+    test: str-trim('....hello....', '.'),
+    return: hello
+  ),
+  'str-trim empty': (
+    test: str-trim('....', '.'),
+    return: ''
+  )
+);
+
+@debug cart($str-trim-test);

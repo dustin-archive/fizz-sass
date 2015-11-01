@@ -1,0 +1,21 @@
+@import '../../cart-sass/scss/main';
+
+@import 'bool/even';
+@import 'bool/odd';
+@import 'bool/point';
+
+@import 'list/longer';
+@import 'list/merge';
+@import 'list/shorter';
+@import 'list/slice';
+
+@import 'string/str-nth';
+@import 'string/str-split';
+@import 'string/str-trim-left';  // merge trim functions?
+@import 'string/str-trim-right';
+@import 'string/str-trim';
+
+@import 'value/larger';
+@import 'value/smaller';
+
+@import 'test/test';

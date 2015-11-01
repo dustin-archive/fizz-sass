@@ -1,0 +1,12 @@
+$str-trim-right-test: (
+  'str-trim-right': (
+    test: str-trim-right('hello....', '.'),
+    return: hello
+  ),
+  'str-trim-right empty': (
+    test: str-trim-right('....', '.'),
+    return: ''
+  )
+);
+
+@debug cart($str-trim-right-test);

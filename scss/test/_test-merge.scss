@@ -1,0 +1,12 @@
+$merge-test: (
+  'no separator': (
+    test: merge(1 2 3 4),
+    return: '1234'
+  ),
+  'separator': (
+    test: merge(1 2 3 4, '-'),
+    return: '1-2-3-4'
+  )
+);
+
+@debug cart($merge-test);

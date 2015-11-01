@@ -1,0 +1,3 @@
+@function str-trim($string, $value) {
+  @return str-trim-right(str-trim-left($string, $value), $value);
+}

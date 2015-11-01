@@ -1,0 +1,7 @@
+@function smaller($one, $two) {
+  @if $one < $two {
+    @return $one;
+  }
+
+  @return $two;
+}

@@ -1,0 +1,12 @@
+$smaller-test: (
+  'one': (
+    test: smaller(1, 2),
+    return: 1
+  ),
+  'two': (
+    test: smaller(2, 1),
+    return: 1
+  )
+);
+
+@debug cart($smaller-test);

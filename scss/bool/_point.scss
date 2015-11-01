@@ -1,0 +1,7 @@
+@function point($value) {
+  @if floor($value) != $value {
+    @return true;
+  }
+
+  @return false;
+}

@@ -1,0 +1,29 @@
+@function merge($list, $separator: '') {
+  $result: null;
+
+  @each $item in $list {
+    @if $item {
+      @if $result {
+        $result: $result + $separator + $item;
+      }
+      @else {
+        $result: $item;
+      }
+    }
+  }
+
+  @return $result;
+}
+
+// I'm not sure if I should have these shortcut functions.
+@function dash($list) {
+  @return merge($list, '-');
+}
+
+@function comma($list) {
+  @return merge($list, ', ');
+}
+
+@function space($list) {
+  @return merge($list, ' ');
+}

@@ -1,0 +1,12 @@
+$shorter-test: (
+  'one': (
+    test: shorter(1 2 3 4, 1),
+    return: 1
+  ),
+  'two': (
+    test: shorter(1, 1 2 3 4),
+    return: 1
+  )
+);
+
+@debug cart($shorter-test);

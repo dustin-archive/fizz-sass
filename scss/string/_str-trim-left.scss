@@ -1,0 +1,16 @@
+@function str-trim-left($string, $value) {
+  $count: 1;
+
+  @for $i from 1 through str-length($string) {
+    $character: str-slice($string, $i, $i);
+
+    @if $character == $value {
+      $count: $count + 1;
+    }
+    @else {
+      @return str-slice($string, $count); // use @break instead of an early @return in Sass 4.0
+    }
+  }
+
+  @return str-slice($string, $count);
+}

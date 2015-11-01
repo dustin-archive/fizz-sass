@@ -1,0 +1,7 @@
+@function odd($value) {
+  @if floor($value / 2) != $value / 2 {
+    @return true;
+  }
+
+  @return false;
+}

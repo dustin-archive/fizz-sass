@@ -1,0 +1,7 @@
+@function shorter($one, $two) {
+  @if length($one) < length($two) {
+    @return length($one);
+  }
+
+  @return length($two);
+}
