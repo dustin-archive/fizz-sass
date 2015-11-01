@@ -1,0 +1,3 @@
+@function inverse($base, $i) {
+  @return ($base + 1) - $i;
+}
