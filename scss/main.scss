@@ -11,11 +11,16 @@
 
 @import 'string/str-nth';
 @import 'string/str-split';
-@import 'string/str-trim-left';  // merge trim functions?
+@import 'string/str-trim-left'; // merge trim functions? defaults to both left and right unless specified?
 @import 'string/str-trim-right';
 @import 'string/str-trim';
 
-@import 'value/inverse';
+@import 'type/type-flag'; // needs test
+@import 'type/type-length'; // needs test // change to type-unit?
+@import 'type/type-property'; // needs test
+@import 'type/type-style'; // needs test
+
+@import 'value/inverse'; // needs test
 @import 'value/larger';
 @import 'value/smaller';
 
