@@ -1,0 +1,9 @@
+@function type-style($value) {
+  $list: 'none' 'hidden' 'dotted' 'dashed' 'solid' 'double' 'groove' 'ridge' 'inset' 'outset';
+
+  @if index($list, $value) {
+    @return true;
+  }
+
+  @return false;
+}

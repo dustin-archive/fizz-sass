@@ -1,0 +1,9 @@
+@function type-length($value) {
+  $list: 'px' 'em' 'rem' 'vw' 'vh' 'vmin' 'vmax' 'in' 'cm' 'mm' 'pt' 'pc' 'ex' 'ch';
+
+  @if index($list, $value) {
+    @return true;
+  }
+
+  @return false;
+}

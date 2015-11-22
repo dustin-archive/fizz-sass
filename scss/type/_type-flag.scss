@@ -1,0 +1,7 @@
+@function type-style($value) {
+  @if str-index($value, '!') {
+    @return true;
+  }
+
+  @return false;
+}
