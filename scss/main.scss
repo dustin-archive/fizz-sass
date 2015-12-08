@@ -1,5 +1,6 @@
 @import '../../cart-sass/scss/main';
 
+@import 'list/combine'; // needs test
 @import 'list/empty'; // needs test
 @import 'list/merge';
 @import 'list/slice';
@@ -31,7 +32,6 @@
 @import 'value/longer';
 @import 'value/odd'; // needs test
 @import 'value/shorter';
-
 @import 'value/smaller';
 @import 'value/strip-unit'; // needs test
 

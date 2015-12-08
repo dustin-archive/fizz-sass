@@ -1,0 +1,14 @@
+@function cola-combine($list, $value, $separator: null) {
+  @if length($list) == 0 {
+    @return $value;
+  }
+  @else if length($value) == 0 {
+    @return $list;
+  }
+
+  @if $separator == 'comma' {
+    @return $list, $value;
+  }
+
+  @return $list $value;
+}
