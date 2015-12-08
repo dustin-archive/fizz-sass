@@ -1,0 +1,7 @@
+@function type-string($value) {
+  @if type-of($value) == 'string' {
+    @return true;
+  }
+
+  @return false;
+}

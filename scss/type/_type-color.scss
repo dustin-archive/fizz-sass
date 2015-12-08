@@ -1,0 +1,7 @@
+@function type-color($value) {
+  @if type-of($value) == 'color' {
+    @return true;
+  }
+
+  @return false;
+}

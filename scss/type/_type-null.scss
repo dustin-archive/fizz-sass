@@ -1,0 +1,7 @@
+@function type-null($value) {
+  @if $value == null {
+    @return true;
+  }
+
+  @return false;
+}

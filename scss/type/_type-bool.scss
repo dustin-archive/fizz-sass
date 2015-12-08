@@ -1,0 +1,7 @@
+@function type-bool($value) {
+  @if type-of($value) == 'bool' {
+    @return true;
+  }
+
+  @return false;
+}

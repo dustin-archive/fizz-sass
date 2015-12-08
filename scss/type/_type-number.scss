@@ -1,0 +1,7 @@
+@function type-number($value) {
+  @if type-of($value) == 'number' {
+    @return true;
+  }
+
+  @return false;
+}
