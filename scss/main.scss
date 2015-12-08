@@ -1,13 +1,7 @@
 @import '../../cart-sass/scss/main';
 
-@import 'bool/even'; // needs test
-@import 'bool/fixed'; // needs test
-@import 'bool/floating'; // needs test
-@import 'bool/odd'; // needs test
-
-@import 'list/longer';
+@import 'list/empty'; // needs test
 @import 'list/merge';
-@import 'list/shorter';
 @import 'list/slice';
 
 @import 'string/str-nth';
@@ -29,8 +23,15 @@
 @import 'type/type-style'; // needs test
 @import 'type/type'; // needs test
 
+@import 'value/even'; // needs test
+@import 'value/fixed'; // needs test
+@import 'value/floating'; // needs test
 @import 'value/inverse'; // needs test
 @import 'value/larger';
+@import 'value/longer';
+@import 'value/odd'; // needs test
+@import 'value/shorter';
+
 @import 'value/smaller';
 @import 'value/strip-unit'; // needs test
 
