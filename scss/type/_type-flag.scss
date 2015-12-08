@@ -1,4 +1,4 @@
-@function type-style($value) {
+@function type-flag($value) {
   @if str-index($value, '!') {
     @return true;
   }
