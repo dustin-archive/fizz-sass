@@ -20,11 +20,14 @@
 @import 'type/type-color'; // needs test
 @import 'type/type-flag'; // needs test
 @import 'type/type-length'; // needs test // change to type-unit?
+@import 'type/type-list'; // needs test
+@import 'type/type-map'; // needs test
 @import 'type/type-null'; // needs test
 @import 'type/type-number'; // needs test
 @import 'type/type-property'; // needs test
 @import 'type/type-string'; // needs test
 @import 'type/type-style'; // needs test
+@import 'type/type'; // needs test
 
 @import 'value/inverse'; // needs test
 @import 'value/larger';

@@ -1,5 +1,5 @@
 @function type-flag($value) {
-  @if str-index($value, '!') {
+  @if type-of($value) == 'string' and str-index($value, '!') {
     @return true;
   }
 

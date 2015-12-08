@@ -1,0 +1,7 @@
+@function type-list($value) {
+  @if type-of($value) == 'list' {
+    @return true;
+  }
+
+  @return false;
+}

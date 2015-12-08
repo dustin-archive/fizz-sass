@@ -1,0 +1,7 @@
+@function type-map($value) {
+  @if type-of($value) == 'map' {
+    @return true;
+  }
+
+  @return false;
+}
