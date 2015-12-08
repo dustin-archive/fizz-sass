@@ -1,9 +1,9 @@
 @import '../../cart-sass/scss/main';
 
-@import 'bool/even';
-@import 'bool/fixed';
-@import 'bool/floating';
-@import 'bool/odd';
+@import 'bool/even'; // needs test
+@import 'bool/fixed'; // needs test
+@import 'bool/floating'; // needs test
+@import 'bool/odd'; // needs test
 
 @import 'list/longer';
 @import 'list/merge';
@@ -24,5 +24,6 @@
 @import 'value/inverse'; // needs test
 @import 'value/larger';
 @import 'value/smaller';
+@import 'value/strip'; // needs test
 
 // @import 'test/test';
