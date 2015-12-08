@@ -1,0 +1,14 @@
+@function flatten($list) {
+  $result: ();
+
+  @each $item in $list {
+    @if type-list($item) {
+      $result: join($result, flatten($item));
+    }
+    @else {
+      $result: join($result, $item);
+    }
+  }
+
+  @return $result;
+}
