@@ -7,6 +7,8 @@
 
 @import 'list/combine'; // needs test
 @import 'list/empty'; // needs test
+@import 'list/longer';
+@import 'list/shorter';
 @import 'list/slice';
 
 @import 'string/str-nth';
@@ -33,9 +35,7 @@
 @import 'value/floating'; // needs test
 @import 'value/inverse'; // needs test
 @import 'value/larger';
-@import 'value/longer';
 @import 'value/odd'; // needs test
-@import 'value/shorter';
 @import 'value/smaller';
 @import 'value/strip-unit'; // needs test
 
