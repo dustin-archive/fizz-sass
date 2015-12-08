@@ -1,8 +1,9 @@
 @import '../../cart-sass/scss/main';
 
 @import 'bool/even';
+@import 'bool/fixed';
+@import 'bool/floating';
 @import 'bool/odd';
-@import 'bool/point';
 
 @import 'list/longer';
 @import 'list/merge';
