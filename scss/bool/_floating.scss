@@ -1,4 +1,4 @@
-@function point($value) {
+@function floating($value) {
   @if floor($value) != $value {
     @return true;
   }
