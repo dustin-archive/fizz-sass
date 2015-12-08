@@ -1,8 +1,8 @@
 @function cola-combine($list, $value, $separator: null) {
-  @if length($list) == 0 {
+  @if empty($list) {
     @return $value;
   }
-  @else if length($value) == 0 {
+  @else if empty($value) {
     @return $list;
   }
 
