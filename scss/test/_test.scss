@@ -1,13 +1,13 @@
-@import 'test-longer';
-@import 'test-merge';
-@import 'test-shorter';
-@import 'test-slice';
+@import 'list/test-longer';
+@import 'list/test-merge';
+@import 'list/test-shorter';
+@import 'list/test-slice';
 
-@import 'test-str-nth';
-@import 'test-str-split';
-@import 'test-str-trim-left';
-@import 'test-str-trim-right';
-@import 'test-str-trim';
+@import 'string/test-str-nth';
+@import 'string/test-str-split';
+@import 'string/test-str-trim-left';
+@import 'string/test-str-trim-right';
+@import 'string/test-str-trim';
 
-@import 'test-larger';
-@import 'test-smaller';
+@import 'value/test-larger';
+@import 'value/test-smaller';
