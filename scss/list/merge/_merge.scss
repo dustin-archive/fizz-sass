@@ -14,15 +14,3 @@
 
   @return $result;
 }
-
-@function dash($list) {
-  @return merge($list, '-');
-}
-
-@function comma($list) {
-  @return merge($list, ', ');
-}
-
-@function space($list) {
-  @return merge($list, ' ');
-}

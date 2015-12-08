@@ -2,8 +2,12 @@
 
 @import 'list/combine'; // needs test
 @import 'list/empty'; // needs test
-@import 'list/merge';
 @import 'list/slice';
+
+@import 'list/merge/comma'; // needs test
+@import 'list/merge/dash'; // needs test
+@import 'list/merge/merge';
+@import 'list/merge/space'; // needs test
 
 @import 'string/str-nth';
 @import 'string/str-split';

@@ -1,0 +1,3 @@
+@function dash($list) {
+  @return merge($list, '-');
+}
