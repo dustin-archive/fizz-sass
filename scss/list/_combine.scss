@@ -1,4 +1,4 @@
-@function cola-combine($list, $value, $separator: null) {
+@function combine($list, $value, $separator: null) {
   @if empty($list) {
     @return $value;
   }
