@@ -1,0 +1,9 @@
+@function get($map, $keys) {
+  $result: ();
+
+  @each $key in $keys {
+    $result: combine($result, map-get($map, $key));
+  }
+
+  @return $result;
+}

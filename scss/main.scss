@@ -1,3 +1,7 @@
+@import 'list/has/has-all'; // needs test
+@import 'list/has/has-any'; // needs test
+@import 'list/has/has-only'; // needs test
+
 @import 'list/merge/comma'; // needs test
 @import 'list/merge/dash'; // needs test
 @import 'list/merge/merge';
@@ -9,6 +13,8 @@
 @import 'list/longer';
 @import 'list/shorter';
 @import 'list/slice';
+
+@import 'map/get'; // needs test
 
 @import 'string/str-nth';
 @import 'string/str-split';
