@@ -1,0 +1,32 @@
+$test-has-any: (
+  'has any 1': (
+    test: has-any(1 2 3 4, 1),
+    return: true
+  ),
+  'has any 2': (
+    test: has-any(1 1 1 1, 1),
+    return: true
+  ),
+  'has any 3': (
+    test: has-any(1, 1 2 3 4),
+    return: true
+  ),
+  'has any 4': (
+    test: has-any(1 2 3 4, 1 2 3),
+    return: true
+  ),
+  'has any 5': (
+    test: has-any(1 2 3 4, 1 2 3 4),
+    return: true
+  ),
+  'has any 6': (
+    test: has-any(1 2 3 4, 1 2 3 5),
+    return: true
+  ),
+  'has any 7': (
+    test: has-any(1 2 3 4, 5 6 7 8),
+    return: false
+  )
+);
+
+@debug cart($test-has-any);

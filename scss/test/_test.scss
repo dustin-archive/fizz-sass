@@ -1,5 +1,9 @@
 @import '../../../cart-sass/scss/main';
 
+@import 'list/has/test-has-all';
+@import 'list/has/test-has-any';
+@import 'list/has/test-has-only';
+
 @import 'list/test-longer';
 @import 'list/test-merge';
 @import 'list/test-shorter';
