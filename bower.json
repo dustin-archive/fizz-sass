@@ -8,10 +8,10 @@
   "main": "scss/main.scss",
   "keywords": [
     "fizz",
-    "library"
+    "library",
     "css",
     "sass",
-    "scss",
+    "scss"
   ],
   "license": "MIT",
   "ignore": [
