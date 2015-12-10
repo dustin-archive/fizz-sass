@@ -1,0 +1,25 @@
+{
+  "name": "fizz-sass",
+  "homepage": "https://github.com/dustindowell22/fizz-sass",
+  "authors": [
+    "Dustin Dowell <dustindowell22@gmail.com>"
+  ],
+  "description": "A Sass library.",
+  "main": "scss/main.scss",
+  "moduleType": [],
+  "keywords": [
+    "fizz",
+    "css",
+    "sass",
+    "scss",
+    "library"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
