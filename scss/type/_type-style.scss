@@ -1,5 +1,5 @@
 @function type-style($value) {
-  $list: 'none' 'hidden' 'dotted' 'dashed' 'solid' 'double' 'groove' 'ridge' 'inset' 'outset';
+  $list: 'dashed' 'dotted' 'double' 'groove' 'hidden' 'inset' 'none' 'outset' 'ridge' 'solid';
 
   @if type-of($value) == 'string' and index($list, $value) {
     @return true;
