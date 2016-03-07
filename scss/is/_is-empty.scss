@@ -1,0 +1,7 @@
+@function is-empty($list) {
+  @if str-length($list) == 0 or length($list) == 0 {
+    @return true;
+  }
+
+  @return false;
+}

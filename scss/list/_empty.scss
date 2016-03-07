@@ -1,7 +1,0 @@
-@function empty($list) {
-  @if length($list) == 0 {
-    @return true;
-  }
-
-  @return false;
-}

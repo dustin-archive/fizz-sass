@@ -1,3 +1,5 @@
+@import 'is/is-empty'; // needs test
+
 @import 'list/has/has-all';
 @import 'list/has/has-any';
 @import 'list/has/has-only';
@@ -8,7 +10,6 @@
 @import 'list/merge/space'; // needs test
 
 @import 'list/combine'; // needs test
-@import 'list/empty'; // needs test
 @import 'list/flatten'; // needs test
 @import 'list/longer';
 @import 'list/shorter';
