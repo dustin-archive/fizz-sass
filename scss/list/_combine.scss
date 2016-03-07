@@ -1,8 +1,9 @@
 @function combine($list, $value, $separator: null) {
-  @if empty($list) {
+  @if length($list) == 0 {
     @return $value;
   }
-  @else if empty($value) {
+
+  @if length($value) == 0 {
     @return $list;
   }
 
