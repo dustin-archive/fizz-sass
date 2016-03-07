@@ -1,10 +1,14 @@
-@function merge($list, $separator: '') {
+@function merge($list, $delimiter: '') {
+  @if type-of($delimiter) != 'string' {
+    @error 'Fizz: merge: `$delimiter` must be a string.';
+  }
+
   $result: null;
 
   @each $item in $list {
     @if $item {
       @if $result {
-        $result: $result + $separator + $item;
+        $result: $result + $delimiter + $item;
       }
       @else {
         $result: $item;
