@@ -1,5 +1,7 @@
 @function even($value) {
-  @if floor($value / 2) == $value / 2 {
+  $half: $value / 2;
+
+  @if floor($half) == $half {
     @return true;
   }
 
