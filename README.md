@@ -2,7 +2,21 @@ Fizz
 ====
 A Sass library.
 
-## `has`
+---
+
+## `str-*`
+### `str-nth($string, $index)`
++ Returns the character of `$string` based on `$index`.
+
+---
+
+## `is-*`
+### `is-empty($list)`
++ Returns true if the length of a string or a list is 0.
+
+---
+
+## `has-*`
 ### `has-all($list, $items)`
 + Returns true if **all** values in `$items` are present in `$list`, otherwise returns false.
 
@@ -12,6 +26,7 @@ A Sass library.
 ### `has-only($list, $items)`
 + Returns true if **only** values in `$items` are present in `$list`, otherwise returns false.
 
+---
 
 ## `merge`
 ### `merge($list, $delimiter)`
@@ -25,3 +40,5 @@ A Sass library.
 
 ### `space($list)`
 + Returns the combined items from a list as a string, delimited by a **space**.
+
+---
