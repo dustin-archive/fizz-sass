@@ -1,7 +1,7 @@
-@function type-length($value) {
+@function valid-length($value) {
   $list: 'px' 'em' 'rem' 'vw' 'vh' 'vmin' 'vmax' 'in' 'cm' 'mm' 'pt' 'pc' 'ex' 'ch';
 
-  @if type-of($value) == 'string' and index($list, $value) {
+  @if type-string($value) and index($list, $value) {
     @return true;
   }
 

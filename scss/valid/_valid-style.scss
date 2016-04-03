@@ -1,7 +1,7 @@
-@function type-style($value) {
+@function valid-style($value) {
   $list: 'dashed' 'dotted' 'double' 'groove' 'hidden' 'inset' 'none' 'outset' 'ridge' 'solid';
 
-  @if type-of($value) == 'string' and index($list, $value) {
+  @if type-string($value) and index($list, $value) {
     @return true;
   }
 

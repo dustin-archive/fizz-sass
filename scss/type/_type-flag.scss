@@ -1,7 +1,0 @@
-@function type-flag($value) {
-  @if type-of($value) == 'string' and str-index($value, '!') == 1 {
-    @return true;
-  }
-
-  @return false;
-}

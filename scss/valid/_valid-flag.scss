@@ -1,0 +1,7 @@
+@function valid-flag($value) {
+  @if type-string($value) and str-index($value, '!') == 1 {
+    @return true;
+  }
+
+  @return false;
+}
