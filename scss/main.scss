@@ -1,17 +1,17 @@
-@import 'type/type-bool'; // needs test
-@import 'type/type-color'; // needs test
-@import 'type/type-flag'; // needs test
-@import 'type/type-length'; // needs test // change to type-unit?
-@import 'type/type-list'; // needs test
-@import 'type/type-map'; // needs test
-@import 'type/type-null'; // needs test
-@import 'type/type-number'; // needs test
-@import 'type/type-property'; // needs test
-@import 'type/type-string'; // needs test
-@import 'type/type-style'; // needs test
-@import 'type/type'; // needs test
+@import 'type/type-bool';
+@import 'type/type-color';
+@import 'type/type-flag';
+@import 'type/type-length'; // change to type-unit?
+@import 'type/type-list';
+@import 'type/type-map';
+@import 'type/type-null';
+@import 'type/type-number';
+@import 'type/type-property';
+@import 'type/type-string';
+@import 'type/type-style';
+@import 'type/type';
 
-@import 'is/is-empty'; // needs test
+@import 'is/is-empty';
 
 @import 'has/has-all';
 @import 'has/has-any';
@@ -19,13 +19,13 @@
 
 @import 'list/merge/merge';
 
-@import 'list/combine'; // needs test
-@import 'list/flatten'; // needs test // type-list, type-map
+@import 'list/combine';
+@import 'list/flatten'; // type-list, type-map
 @import 'list/longer';
 @import 'list/shorter';
 @import 'list/slice';
 
-@import 'map/get'; // needs test // needs a better name that shows that it accepts lists.
+@import 'map/get'; // needs a better name that shows that it accepts lists.
 
 @import 'str/str-nth';
 @import 'str/str-split';
@@ -33,13 +33,11 @@
 @import 'str/str-trim-right';
 @import 'str/str-trim';
 
-@import 'value/even'; // needs test
-@import 'value/fixed'; // needs test
-@import 'value/floating'; // needs test
-@import 'value/inverse'; // needs test
+@import 'value/even';
+@import 'value/fixed';
+@import 'value/floating';
+@import 'value/inverse';
 @import 'value/larger';
-@import 'value/odd'; // needs test
+@import 'value/odd';
 @import 'value/smaller';
-@import 'value/strip-unit'; // needs test
-
-// @import 'test/test';
+@import 'value/strip-unit';

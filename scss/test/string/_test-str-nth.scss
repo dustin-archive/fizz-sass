@@ -1,8 +1,0 @@
-$str-nth-test: (
-  'str-nth': (
-    test: str-nth('hello', 5),
-    return: o
-  )
-);
-
-@debug cart($str-nth-test);
