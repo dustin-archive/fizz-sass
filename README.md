@@ -10,6 +10,9 @@ Fizz
 + Returns a one dimensional list of all values
 + Recursive
 
+#### `merge($list, $delimiter)`
++ Returns the combined items from a list as a string, with an optional delimiter.
+
 ---
 
 ## `str-*`
@@ -33,20 +36,3 @@ Fizz
 
 ### `has-only($list, $items)`
 + Returns true if **only** values in `$items` are present in `$list`, otherwise returns false.
-
----
-
-## `merge`
-### `merge($list, $delimiter)`
-+ Returns the combined items from a list as a string, with an optional delimiter.
-
-### `comma($list)`
-+ Returns the combined items from a list as a string, delimited by a **comma** and a space.
-
-### `dash($list)`
-+ Returns the combined items from a list as a string, delimited by a **dash**.
-
-### `space($list)`
-+ Returns the combined items from a list as a string, delimited by a **space**.
-
----
