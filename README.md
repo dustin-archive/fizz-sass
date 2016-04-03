@@ -1,6 +1,14 @@
 Fizz
-====
-A Sass library.
+===
+
+> Sweet utility functions
+
+## Functions
+
+#### `flatten($list)`
++ Accepts a list or a map
++ Returns a one dimensional list of all values
++ Recursive
 
 ---
 
