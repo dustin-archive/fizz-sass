@@ -11,7 +11,7 @@
 @import 'valid/valid-length'; // change to valid-unit?
 @import 'valid/valid-property';
 @import 'valid/valid-style';
-@import 'valid/valid';
+// @import 'valid/valid';
 
 @import 'is/is-empty';
 
@@ -19,7 +19,7 @@
 @import 'has/has-any';
 @import 'has/has-only';
 
-@import 'list/merge/merge';
+@import 'list/merge';
 
 @import 'list/combine';
 @import 'list/flatten'; // type-list, type-map
