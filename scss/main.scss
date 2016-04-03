@@ -27,11 +27,11 @@
 
 @import 'map/get'; // needs test // needs a better name that shows that it accepts lists.
 
-@import 'string/str-nth';
-@import 'string/str-split';
-@import 'string/str-trim-left';
-@import 'string/str-trim-right';
-@import 'string/str-trim';
+@import 'str/str-nth';
+@import 'str/str-split';
+@import 'str/str-trim-left';
+@import 'str/str-trim-right';
+@import 'str/str-trim';
 
 @import 'value/even'; // needs test
 @import 'value/fixed'; // needs test
