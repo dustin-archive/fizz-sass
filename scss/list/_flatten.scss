@@ -2,7 +2,7 @@
   $result: ();
 
   @each $item in $list {
-    @if type-list($item) {
+    @if type-list($item) or type-map($item) {
       $result: join($result, flatten($item));
     }
     @else {
