@@ -11,7 +11,8 @@ Fizz
 + Recursive
 
 #### `merge($list, $delimiter)`
-+ Returns the combined items from a list as a string, with an optional delimiter.
++ Accepts a list or map
++ Returns a concatenated string of all values, with an optional delimiter
 
 ---
 
