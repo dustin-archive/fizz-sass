@@ -1,28 +1,3 @@
-@import 'is/is-empty'; // needs test
-
-@import 'list/has/has-all';
-@import 'list/has/has-any';
-@import 'list/has/has-only';
-
-@import 'list/merge/comma'; // needs test
-@import 'list/merge/dash'; // needs test
-@import 'list/merge/merge';
-@import 'list/merge/space'; // needs test
-
-@import 'list/combine'; // needs test
-@import 'list/flatten'; // needs test
-@import 'list/longer';
-@import 'list/shorter';
-@import 'list/slice';
-
-@import 'map/get'; // needs test // needs a better name that shows that it accepts lists.
-
-@import 'string/str-nth';
-@import 'string/str-split';
-@import 'string/str-trim-left';
-@import 'string/str-trim-right';
-@import 'string/str-trim';
-
 @import 'type/type-bool'; // needs test
 @import 'type/type-color'; // needs test
 @import 'type/type-flag'; // needs test
@@ -35,6 +10,28 @@
 @import 'type/type-string'; // needs test
 @import 'type/type-style'; // needs test
 @import 'type/type'; // needs test
+
+@import 'is/is-empty'; // needs test
+
+@import 'list/has/has-all';
+@import 'list/has/has-any';
+@import 'list/has/has-only';
+
+@import 'list/merge/merge';
+
+@import 'list/combine'; // needs test
+@import 'list/flatten'; // needs test // type-list, type-map
+@import 'list/longer';
+@import 'list/shorter';
+@import 'list/slice';
+
+@import 'map/get'; // needs test // needs a better name that shows that it accepts lists.
+
+@import 'string/str-nth';
+@import 'string/str-split';
+@import 'string/str-trim-left';
+@import 'string/str-trim-right';
+@import 'string/str-trim';
 
 @import 'value/even'; // needs test
 @import 'value/fixed'; // needs test
