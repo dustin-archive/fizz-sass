@@ -1,7 +1,7 @@
 Fizz
 ===
 
-> Sweet utility functions
+> Sweet utility library
 
 ## Functions
 
