@@ -1,9 +1,0 @@
-@function has-only($list, $items) {
-  @each $item in $list {
-    @if not index($items, $item) {
-      @return false;
-    }
-  }
-
-  @return true;
-}

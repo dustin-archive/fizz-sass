@@ -1,0 +1,41 @@
+//
+// + Has All
+// =============================================================================
+
+@function has-all($list, $items) {
+  @each $item in $items {
+    @if not index($list, $item) {
+      @return false;
+    }
+  }
+
+  @return true;
+}
+
+//
+// + Has Any
+// =============================================================================
+
+@function has-any($list, $items) {
+  @each $item in $items {
+    @if index($list, $item) {
+      @return true;
+    }
+  }
+
+  @return false;
+}
+
+//
+// + Has Only
+// =============================================================================
+
+@function has-only($list, $items) {
+  @each $item in $list {
+    @if not index($items, $item) {
+      @return false;
+    }
+  }
+
+  @return true;
+}

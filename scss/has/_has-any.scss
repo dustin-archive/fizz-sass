@@ -1,9 +1,0 @@
-@function has-any($list, $items) {
-  @each $item in $items {
-    @if index($list, $item) {
-      @return true;
-    }
-  }
-
-  @return false;
-}

@@ -1,3 +1,4 @@
+@import 'has';
 @import 'nth';
 
 @import 'type/type-bool';
@@ -16,10 +17,6 @@
 // @import 'valid/valid';
 
 @import 'is/is-empty';
-
-@import 'has/has-all';
-@import 'has/has-any';
-@import 'has/has-only';
 
 @import 'list/merge';
 
