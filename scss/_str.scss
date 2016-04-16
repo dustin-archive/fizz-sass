@@ -1,0 +1,83 @@
+//
+// + Str Nth
+// =============================================================================
+
+@function str-nth($string, $index) {
+  @return str-slice($string, $index, $index);
+}
+
+//
+// + Str Split
+// =============================================================================
+
+@function str-split($string, $separator) {
+  $result: ();
+  $index: str-index($string, $separator);
+
+  @if $index {
+    $result: str-slice($string, 1, $index - 1);
+    $after: str-slice($string, $index + str-length($separator));
+
+    @if str-index($after, $separator) {
+      $result: join($result, str-split($after, $separator));
+    }
+    @else {
+      $result: join($result, $after);
+    }
+  }
+  @else {
+    $result: $string;
+  }
+
+  @return $result;
+}
+
+//
+// + Str Trim Left
+// =============================================================================
+
+@function str-trim-left($string, $value) {
+  $count: 1;
+
+  @for $i from 1 through str-length($string) {
+    $character: str-slice($string, $i, $i);
+
+    @if $character == $value {
+      $count: $count + 1;
+    }
+    @else {
+      @return str-slice($string, $count); // use @break instead of an early @return in Sass 4.0
+    }
+  }
+
+  @return str-slice($string, $count);
+}
+
+//
+// + Str Trim Right
+// =============================================================================
+
+@function str-trim-right($string, $value) {
+  $count: 0;
+
+  @for $i from str-length($string) through 1 {
+    $character: str-slice($string, $i, $i);
+
+    @if $character == $value {
+      $count: $count + 1;
+    }
+    @else {
+      @return str-slice($string, 1, str-length($string) - $count); // use @break instead of an early @return in Sass 4.0
+    }
+  }
+
+  @return str-slice($string, 1, str-length($string) - $count);
+}
+
+//
+// + Str Trim
+// =============================================================================
+
+@function str-trim($string, $value) {
+  @return str-trim-right(str-trim-left($string, $value), $value);
+}
