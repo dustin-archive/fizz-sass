@@ -28,11 +28,7 @@
 
 @import 'map/get'; // needs a better name that shows that it accepts lists.
 
-@import 'str/str-nth';
-@import 'str/str-split';
-@import 'str/str-trim-left';
-@import 'str/str-trim-right';
-@import 'str/str-trim';
+@import 'str';
 
 @import 'value/even';
 @import 'value/fixed';
