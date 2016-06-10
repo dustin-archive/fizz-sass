@@ -1,5 +1,7 @@
 @import 'has';
+@import 'if';
 @import 'nth';
+@import 'str';
 
 @import 'type/type-bool';
 @import 'type/type-color';
@@ -27,8 +29,6 @@
 @import 'list/slice';
 
 @import 'map/get'; // needs a better name that shows that it accepts lists.
-
-@import 'str';
 
 @import 'value/even';
 @import 'value/fixed';
