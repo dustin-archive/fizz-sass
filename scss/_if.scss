@@ -1,0 +1,3 @@
+@function if-nth($value, $index) {
+  @return if(length($value) == $index, nth($value, $index), null);
+}
